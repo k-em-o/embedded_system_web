@@ -1,0 +1,57 @@
+
+
+.kemo_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.kemo_text {
+  padding-top: 7rem;
+  h1 {
+    /*      شكل الكلام البرتقانى  (اللى ف التصميم ي مازن )      */
+    color: #f5f0cd;
+    font-family: "ADLaM Display", system-ui !important ;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83.5px;
+  }
+  p {
+    /*  شكل الكلام الاسود  (اللى ف نفس التصميم ي مازن صحصح معانا ي ريص )   */
+    color: #f5f0cd;
+    font-family: "ADLaM Display", system-ui !important ;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.09px;
+    margin-top: 15px;
+  }
+} 
+.btn_color {
+  /*    شكل الزرار (اكيد عرفتها المرة دى لوحدك ☺️ )      */
+  background-color: #c9e6f0;
+  color: #f5f0cd;
+  font-family: "ADLaM Display", system-ui !important ;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31.31px;
+}
+.kemo_image {
+  transform: translateY(100px); /*      عشان ارفع الصورة فوق شويا         */
+  width: 30rem;
+  border: 100%;
+  /*      عشان ارفع الصورة فوق شويا         */
+}
+.navbar_br,.nav_link{
+  color: #F5F0CD;
+  &:hover{
+    color: #6BA3BE;
+  }
+}
+.kemo_image_2 {
+  transform: translateY(200px);
+  transform: translateX(100px);
+  margin-top: 150px;
+  border-radius: 20px;
+  width: 1000px;
+  /*      عشان ارفع الصورة فوق شويا         */
+}
